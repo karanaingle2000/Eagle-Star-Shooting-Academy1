@@ -185,7 +185,7 @@ const Contact = () => {
           {/* Quick Action Buttons */}
           <div className="mt-8 space-y-4">
             <a 
-              href="https://wa.me/919823222202" 
+              href="https://wa.me/918149222003" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-6 py-3 rounded-lg font-semibold transition-colors w-full justify-center"
@@ -491,7 +491,7 @@ const Contact = () => {
           Visit our academy and witness our world-class facilities firsthand. Experience the difference that professional training makes.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="https://wa.me/919823222202" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/918149222003" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-4 rounded-full font-semibold text-sm sm:text-base transition flex items-center gap-2 mx-auto"
                     style={{ backgroundColor: colors.success, color: 'white' }}>
               <FaWhatsapp className="text-xl" />

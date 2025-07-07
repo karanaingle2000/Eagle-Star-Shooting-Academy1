@@ -140,7 +140,7 @@ const Gallery = () => {
                 <img
                   src={img.src}
                   alt={img.caption}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-90 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <FaExpand className="text-white text-2xl" />
@@ -233,7 +233,7 @@ const Gallery = () => {
                 <div className="relative">
                   <video
                     src={video.src}
-                    className="w-full h-48 object-cover"
+                    className="w-full h-150 object-cover"
                     loop
                     muted
                     controls

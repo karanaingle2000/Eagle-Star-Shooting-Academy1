@@ -59,6 +59,48 @@ const Home = () => {
         </motion.div>
       </section>
 
+
+      {/* Director Section */}
+      <section className="bg-[url('/army-bg.jpg')] bg-cover bg-center bg-fixed py-20 px-6">
+        <div className="backdrop-blur-sm p-8 rounded-xl max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center"
+             style={{ backgroundColor: `${colors.primary}e6` }}>
+          <motion.div 
+            whileHover={{ scale: 1.03 }} 
+            className="overflow-hidden rounded-2xl border-4 shadow-2xl"
+            style={{ borderColor: colors.accent }}
+          >
+            <img src="/Director.jpeg" alt="Director" className="w-full h-auto object-cover" />
+          </motion.div>
+          <div>
+            <h2 className="text-4xl font-bold mb-4" style={{ color: colors.accent }}>
+              Meet Our Director
+            </h2>
+            <h3 className="text-2xl font-semibold mb-6" style={{ color: colors.accent }}>
+              Mr. Sundar Ghate
+            </h3>
+            <div className="space-y-4 text-base leading-relaxed" style={{ color: colors.textSecondary }}>
+              <p>
+                With over 25 years of dedicated experience, Sundar Ghate has established himself as one of India's premier shooting coaches. His journey began in 2001, turning professional in 2005 with the Aurangabad Rifle Association.
+              </p>
+              <p>
+                From 2007 to 2012, he served as Chief Coach of the Aurangabad District Rifle Association, producing numerous national-level shooters. His crowning achievement came in 2017 when his student <strong style={{ color: colors.accent }}>Esha Singh</strong> won three gold medals at the National Championship and later represented India at the 2024 Paris Olympics.
+              </p>
+              <p>
+                He has trained athletes from Maharashtra, Telangana, Andhra Pradesh, Haryana, and Karnataka, including the Maratha Regiment's YBC team and IPS officers.
+              </p>
+            </div>
+            <a href="/trainer" 
+               className="inline-block mt-6 px-6 py-3 rounded-full font-semibold transition"
+               style={{ 
+                 backgroundColor: colors.accent, 
+                 color: colors.buttonPrimaryText 
+               }}>
+              Learn More About Our Team
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Stats Section */}
       <section className="py-16 px-6" style={{ backgroundColor: colors.secondary, color: colors.textPrimary }}>
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -140,46 +182,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Director Section */}
-      <section className="bg-[url('/army-bg.jpg')] bg-cover bg-center bg-fixed py-20 px-6">
-        <div className="backdrop-blur-sm p-8 rounded-xl max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center"
-             style={{ backgroundColor: `${colors.primary}e6` }}>
-          <motion.div 
-            whileHover={{ scale: 1.03 }} 
-            className="overflow-hidden rounded-2xl border-4 shadow-2xl"
-            style={{ borderColor: colors.accent }}
-          >
-            <img src="/Director.jpeg" alt="Director" className="w-full h-auto object-cover" />
-          </motion.div>
-          <div>
-            <h2 className="text-4xl font-bold mb-4" style={{ color: colors.accent }}>
-              Meet Our Director
-            </h2>
-            <h3 className="text-2xl font-semibold mb-6" style={{ color: colors.accent }}>
-              Mr. Sundar Ghate
-            </h3>
-            <div className="space-y-4 text-base leading-relaxed" style={{ color: colors.textSecondary }}>
-              <p>
-                With over 25 years of dedicated experience, Sundar Ghate has established himself as one of India's premier shooting coaches. His journey began in 2001, turning professional in 2005 with the Aurangabad Rifle Association.
-              </p>
-              <p>
-                From 2007 to 2012, he served as Chief Coach of the Aurangabad District Rifle Association, producing numerous national-level shooters. His crowning achievement came in 2017 when his student <strong style={{ color: colors.accent }}>Esha Singh</strong> won three gold medals at the National Championship and later represented India at the 2024 Paris Olympics.
-              </p>
-              <p>
-                He has trained athletes from Maharashtra, Telangana, Andhra Pradesh, Haryana, and Karnataka, including the Maratha Regiment's YBC team and IPS officers.
-              </p>
-            </div>
-            <a href="/trainer" 
-               className="inline-block mt-6 px-6 py-3 rounded-full font-semibold transition"
-               style={{ 
-                 backgroundColor: colors.accent, 
-                 color: colors.buttonPrimaryText 
-               }}>
-              Learn More About Our Team
-            </a>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Testimonials Section */}
       <section className="py-20 px-6" style={{ backgroundColor: colors.secondary, color: colors.textPrimary }}>
