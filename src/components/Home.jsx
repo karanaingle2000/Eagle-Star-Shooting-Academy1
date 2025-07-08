@@ -101,32 +101,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 px-6" style={{ backgroundColor: colors.secondary, color: colors.textPrimary }}>
-        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          {[
-            { number: "25+", label: "Years Experience" },
-            { number: "500+", label: "Students Trained" },
-            { number: "50+", label: "National Champions" },
-            { number: "1", label: "Olympic Participant" }
-          ].map((stat, i) => (
-            <motion.div
-              key={i}
-              className="p-4"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-            >
-              <h3 className="text-3xl md:text-4xl font-bold mb-2" style={{ color: colors.accent }}>
-                {stat.number}
-              </h3>
-              <p className="text-sm md:text-base" style={{ color: colors.textSecondary }}>
-                {stat.label}
-              </p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
+     
 
       {/* Features Section */}
       <section className="py-20 px-6" style={{ backgroundColor: colors.primary, color: colors.textPrimary }}>
@@ -204,7 +179,7 @@ const Home = () => {
             },
             {
               quote: "The coaching methodology and safety standards at Eagle Star are world-class. Highly recommended for serious shooters.",
-              author: "IPS Ravindra Singal",
+              author: "IPS Ravinder Singal",
               title: "Commissioner of Police, Nagpur & ADG"
             }
           ].map((testimonial, i) => (

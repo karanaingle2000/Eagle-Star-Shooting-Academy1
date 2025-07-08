@@ -22,7 +22,7 @@ const galleryImages = [
 const videoClips = [
   {
     src: "/Ravindra sir.mp4",
-    caption: "Message from IPS Ravindra Singal",
+    caption: "Message from IPS Ravinder Singal",
     description: "Motivational speech about youth discipline and national pride from Commissioner of Police, Nagpur & ADG.",
     slogan: "✨ Discipline today, leadership tomorrow."
   },

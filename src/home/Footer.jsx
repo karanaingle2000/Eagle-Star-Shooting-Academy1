@@ -103,7 +103,7 @@ const Footer = () => {
             {[
               { href: "#", icon: FaFacebookF },
               { href: "https://www.instagram.com/eagle_star_shooting_academy?igsh=OXFoc294cGlhNjN3&utm_source=qr", icon: FaInstagram },
-              { href: "https://wa.me/919823222202", icon: FaWhatsapp }
+              { href: "https://wa.me/918149222003", icon: FaWhatsapp }
             ].map((social, index) => (
               <a key={index}
                  href={social.href} 
