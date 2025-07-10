@@ -30,16 +30,14 @@ const Footer = () => {
           </h3>
           <p className="flex items-start gap-2" style={{ color: colors.textSecondary }}>
             <FaMapMarkerAlt className="text-2xl shrink-0 mt-1" />
-            <a
-              href="https://www.google.com/maps/place/s4s+technologies/@19.8819787,75.3812552,240m/data=!3m1!1e3!4m6!3m5!1s0x3bdba300124505c1:0xc6075f4dbd1f7b42!8m2!3d19.8823601!4d75.3819897!16s%2Fg%2F11wk2_smd1?authuser=0&entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"
-              target="_blank"
-              rel="noopener noreferrer"
+            <p
+              
               className="hover:underline transition-colors"
               onMouseEnter={(e) => e.target.style.color = colors.accent}
               onMouseLeave={(e) => e.target.style.color = colors.textSecondary}
             >
               Plot NO 23/24 N S Plaza E Sector MIDC Industrial Area Chikalthana, Chhatrapati Sambhaji Nagar 431210, Maharashtra, India
-            </a>
+            </p>
           </p>
           <div className="flex items-center gap-2" style={{ color: colors.textSecondary }}>
             <FaPhoneAlt className="text-2xl" />
