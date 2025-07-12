@@ -20,13 +20,16 @@ const trainers = [
     bio: 'Combining physical endurance training with mental resilience, Akshay builds champions from within.',
     quote: 'Train your body, free your mind.'
   },
-  // {
-  //   name: 'Ms. Tejaswini Kadam',
-  //   title: 'National Player & NIS certified coach',
-  //   image: '/kadam.jpeg',
-  //   bio: 'Tejaswini Kadam is a national-level shooter from Maharashtra and a distinguished University medalist. She earned her credentials as a certified shooting coach from NIS.',
-  //   quote: 'Safety first, success always.'
-  // },
+ {
+  name: 'Mr. Hemant More',
+  title: 'Mentor | ISSF “B” Jury & Advocate, Bombay High Court',
+  image: '".jpeg"',
+  bio: 'Mentor at our academy, Hemant brings ISSF expertise and legal discipline to guide young shooters toward excellence.',
+  quote: 'Precision in sport, integrity in life.'
+},
+
+
+ 
 ];
 
 const Trainer = () => {
