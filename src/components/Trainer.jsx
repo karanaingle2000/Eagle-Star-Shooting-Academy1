@@ -23,7 +23,7 @@ const trainers = [
  {
   name: 'Mr. Hemant More',
   title: 'Mentor | ISSF “B” Jury & Advocate, Bombay High Court',
-  image: '".jpeg"',
+  image: 'h1.jpeg',
   bio: 'Mentor at our academy, Hemant brings ISSF expertise and legal discipline to guide young shooters toward excellence.',
   quote: 'Precision in sport, integrity in life.'
 },
