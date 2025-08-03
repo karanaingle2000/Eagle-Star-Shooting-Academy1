@@ -20,13 +20,14 @@ const trainers = [
     bio: 'Combining physical endurance training with mental resilience, Akshay builds champions from within.',
     quote: 'Train your body, free your mind.'
   },
- {
+{
   name: 'Mr. Hemant More',
-  title: 'Mentor | ISSF “B” Jury & Advocate, Bombay High Court',
+  title: 'Mentor | ISSF “B” Jury & EST Certified Official',
   image: 'h1.jpeg',
-  bio: 'Mentor at our academy, Hemant brings ISSF expertise and legal discipline to guide young shooters toward excellence.',
-  quote: 'Precision in sport, integrity in life.'
+  bio: 'With ISSF “B” Jury and EST certification, Mr. Hemant More empowers athletes through elite-level insight and a passion for precision. His guidance helps shape champions ready for the global stage.',
+  quote: 'Train with discipline, compete with confidence.'
 },
+
 
 
  
