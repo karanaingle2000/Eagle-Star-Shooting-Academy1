@@ -14,19 +14,20 @@ const trainers = [
     quote: 'Discipline, focus, and passion — the formula for champions.'
   },
   {
+  name: 'Mr. Hemant More',
+  title: 'Mentor | ISSF “B” Jury & EST Certified Official',
+  image: 'h1.jpeg',
+  bio: 'With ISSF “B” Jury and EST certification, Mr. Hemant More empowers athletes through elite-level insight and a passion for precision. His guidance helps shape champions ready for the global stage.',
+  quote: 'Train with discipline, compete with confidence.'
+},
+  {
     name: 'Mr. Akshay Kamble',
     title: 'National Player & NIS certified coach',
     image: '/kamble.jpeg',
     bio: 'Combining physical endurance training with mental resilience, Akshay builds champions from within.',
     quote: 'Train your body, free your mind.'
   },
-{
-  name: 'Mr. Hemant More',
-  title: 'Mentor | ISSF “B” Jury & EST Certified Official',
-  image: 'h1x.jpeg',
-  bio: 'With ISSF “B” Jury and EST certification, Mr. Hemant More empowers athletes through elite-level insight and a passion for precision. His guidance helps shape champions ready for the global stage.',
-  quote: 'Train with discipline, compete with confidence.'
-},
+
 
 
 
