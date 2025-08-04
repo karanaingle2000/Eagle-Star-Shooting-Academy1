@@ -4,36 +4,39 @@ import { FaPlay, FaPause, FaExpand } from 'react-icons/fa';
 import { useTheme } from '../context/ThemeContext';
 
 const galleryImages = [
-  { src: '/c1.jpeg', caption: 'Opening Ceremony', description: 'A moment of pride as Shiv Chhatrapati Awardee Seema Patwardhan graced our opening ceremony with a ceremonial ribbon cutting.' },
-  { src: '/c2.jpeg', caption: 'Opening Ceremony', description: 'A powerful guest address that inspired, encouraged, and energized the spirit of the event.' },
-  { src: '/c3.jpeg', caption: 'Opening Ceremony', description: 'Sundar Ghate, our respected Director, had the honor of felicitating Mr. Anil Rao, CEO of Primus Energy Solutions Pvt. Ltd., during the opening ceremony.' },
-  { src: '/t4.jpeg', caption: 'Group Session', description: 'Under the expert guidance of Sundar Ghate Sir, our group session sharpened both skill and discipline.' },
-  { src: '/t1.jpeg', caption: 'Group Session', description: 'A memorable training experience led by Sundar Ghate Sir — inspiring focus, unity, and excellence.' },
-  { src: '/t2.jpeg', caption: 'Instructor Demo', description: 'Guided by Sundar Ghate Sir, each shot in our group session echoed confidence and precision.' },
-  { src: '/adi.jpeg', caption: 'Training Session', description: 'Dedicated training sessions building precision and discipline.' },
-  { src: '/parth.jpeg', caption: 'Honored Guest', description: 'A proud moment as Senior Police Inspector Gautam Patare extended his greetings and encouragement to our academy.' },
-  { src: '/girl1.jpeg', caption: 'Safety Training', description: 'Practicing precision with responsibility during our safety drill on the shooting range.' },
-  { src: '/medal.jpeg', caption: 'Achievement Recognition', description: 'Esha Singh and Koushik Gopu, shining talents trained by Sundar Ghate Sir, recognized and honored for their dedication and achievements.' },
-  { src: '/ips.jpeg', caption: 'Distinguished Alumni', description: 'Honored to see Sundar Ghate Sir, who had the privilege of training IPS Ravindra Singal — now Commissioner of Police, Nagpur & ADG.' },
-  { src: '/t3.jpeg', caption: 'Military Training', description: 'Honored to have Sundar Ghate Sir share his shooting mastery with the Indian Army Maratha Regiment YBC team.' },
-  { src: '/e1.jpeg', caption: 'Olympic Achievement', description: 'Proud moment as Esha Singh, a shining talent and student of Sundar Ghate Sir, receives the prestigious Arjuna Award.' },
+  { src: '/c1.jpeg', alt:'Opening Ceremony', caption: 'Opening Ceremony', description: 'A moment of pride as Shiv Chhatrapati Awardee Seema Patwardhan graced our opening ceremony with a ceremonial ribbon cutting.' },
+  { src: '/c2.jpeg', alt:'Opening Ceremony', caption: 'Opening Ceremony', description: 'A powerful guest address that inspired, encouraged, and energized the spirit of the event.' },
+  { src: '/c3.jpeg', alt:'Opening Ceremony', caption: 'Opening Ceremony', description: 'Sundar Ghate, our respected Director, had the honor of felicitating Mr. Anil Rao, CEO of Primus Energy Solutions Pvt. Ltd., during the opening ceremony.' },
+  { src: '/t4.jpeg', alt:'Group Session', caption: 'Group Session', description: 'Under the expert guidance of Sundar Ghate Sir, our group session sharpened both skill and discipline.' },
+  { src: '/t1.jpeg', alt:'Group Session', caption: 'Group Session', description: 'A memorable training experience led by Sundar Ghate Sir — inspiring focus, unity, and excellence.' },
+  { src: '/t2.jpeg', alt:'Instructor Demo', caption: 'Instructor Demo', description: 'Guided by Sundar Ghate Sir, each shot in our group session echoed confidence and precision.' },
+  { src: '/adi.jpeg', alt:'Training Session', caption: 'Training Session', description: 'Dedicated training sessions building precision and discipline.' },
+  { src: '/parth.jpeg', alt:'Honored Guest', caption: 'Honored Guest', description: 'A proud moment as Senior Police Inspector Gautam Patare extended his greetings and encouragement to our academy.' },
+  { src: '/girl1.jpeg', alt:'Safety Training', caption: 'Safety Training', description: 'Practicing precision with responsibility during our safety drill on the shooting range.' },
+  { src: '/medal.jpeg', alt:'Achievement Recognition', caption: 'Achievement Recognition', description: 'Esha Singh and Koushik Gopu, shining talents trained by Sundar Ghate Sir, recognized and honored for their dedication and achievements.' },
+  { src: '/ips.jpeg', alt:'Distinguished Alumni', caption: 'Distinguished Alumni', description: 'Honored to see Sundar Ghate Sir, who had the privilege of training IPS Ravindra Singal — now Commissioner of Police, Nagpur & ADG.' },
+  { src: '/t3.jpeg', alt:'Military Training', caption: 'Military Training', description: 'Honored to have Sundar Ghate Sir share his shooting mastery with the Indian Army Maratha Regiment YBC team.' },
+  { src: '/e1.jpeg', alt:'Olympic Achievement', caption: 'Olympic Achievement', description: 'Proud moment as Esha Singh, a shining talent and student of Sundar Ghate Sir, receives the prestigious Arjuna Award.' },
 ];
 
 const videoClips = [
   {
     src: "/Ravindra sir.mp4",
+    alt: "IPS Ravindra Singal",
     caption: "Message from IPS Ravinder Singal",
     description: "Motivational speech about youth discipline and national pride from Commissioner of Police, Nagpur & ADG.",
     slogan: "✨ Discipline today, leadership tomorrow."
   },
   {
     src: "/Esha.mp4",
+    alt: "Esha Singh",
     caption: "Olympian Esha Singh Shares Her Experience",
     description: "Esha Singh, a rising star in Indian shooting and Paris Olympics participant, shares her journey, motivation, and message to the next generation of shooters.",
     slogan: "🎯 Aim high, shoot higher."
   },
   {
     src: "/preet sir.mp4",
+    alt: "Colonel Preet Chohan",
     caption: "Colonel Preet Chohan's Greeting",
     description: "Colonel Preet Chohan, one of the finest shooters in the Indian Army and part of the Maratha Light Infantry, sends his warm wishes and support to Eagle Star Shooting Academy.",
     slogan: "🏅 Discipline, Honor, Victory."
