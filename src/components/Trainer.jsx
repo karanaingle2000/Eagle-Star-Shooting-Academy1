@@ -23,7 +23,7 @@ const trainers = [
 {
   name: 'Mr. Hemant More',
   title: 'Mentor | ISSF “B” Jury & EST Certified Official',
-  image: 'h1.jpeg',
+  image: 'h1x.jpeg',
   bio: 'With ISSF “B” Jury and EST certification, Mr. Hemant More empowers athletes through elite-level insight and a passion for precision. His guidance helps shape champions ready for the global stage.',
   quote: 'Train with discipline, compete with confidence.'
 },
