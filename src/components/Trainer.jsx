@@ -6,13 +6,14 @@ import { FaQuoteLeft } from 'react-icons/fa';
 import { useTheme } from '../context/ThemeContext';
 
 const trainers = [
-  {
-    name: 'Mr. Sundar Ghate ',
+{
+    name: 'Mr. Sundar Ghate',
     title: 'Chief Coach',
     image: '/Director.jpeg',
-    bio: 'With 20+ years of experience, Mr.Sundar has trained number of national-level shooters with excellence in air rifle and pistol shooting.',
+    bio: 'With 20+ years of experience, Mr. Sundar has trained numerous national and international-level shooters with excellence in air rifle and pistol shooting.',
     quote: 'Discipline, focus, and passion — the formula for champions.'
-  },
+}
+,
   {
   name: 'Mr. Hemant More',
   title: 'Mentor | ISSF “B” Jury & EST Certified Official',
